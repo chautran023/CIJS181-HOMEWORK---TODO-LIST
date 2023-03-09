@@ -19,7 +19,7 @@ export default function MyList({ tasks }) {
 
   return (
     <>
-      <ul className="list-group">
+      <ul className="list-group m-3">
         {tasks.map((item) => (
           <li className="list-group-item" key={item.id}>
             <input
@@ -32,7 +32,10 @@ export default function MyList({ tasks }) {
           </li>
         ))}
       </ul>
-      <div className="d-flex justify-content-between" style={{ color: 'gray' }}>
+      <div
+        className="d-flex justify-content-between m-3"
+        style={{ color: 'gray' }}
+      >
         <div>{`${left} tasks left!`}</div>
         <div>Chau's to-do list</div>
       </div>

@@ -22,7 +22,7 @@ export default function Add({ onAddNew }) {
   };
 
   return (
-    <form className="row g-3" onSubmit={handleSubmit}>
+    <form className="row g-3 m-2" onSubmit={handleSubmit}>
       <div className="col-auto">
         <label>
           <input
@@ -35,8 +35,8 @@ export default function Add({ onAddNew }) {
           />
         </label>
       </div>
-      <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3">
+      <div className="col-auto">
+        <button type="submit" className="btn btn-primary mb-3">
           Add
         </button>
       </div>
