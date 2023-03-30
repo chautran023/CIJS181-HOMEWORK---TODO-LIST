@@ -1,0 +1,30 @@
+.media-main a.pull-left {
+  width: 100px;
+}
+.media-main {
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 4px;
+  padding: 10px;
+}
+.thumb-lg {
+  height: 84px;
+  width: 84px;
+}
+.btn-danger {
+  margin-left: 3px;
+}
+.panel {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #fff;
+  border: 3px solid transparent;
+  border-radius: 4px;
+}
+.btn-primary {
+  margin-left: 5px;
+}
+.bar {
+  display: flex;
+  flex-direction: row;
+}
